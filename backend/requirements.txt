@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+deep-translator
+pydantic
+python-dotenv
+sqlalchemy
