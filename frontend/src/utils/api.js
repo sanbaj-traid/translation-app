@@ -5,7 +5,8 @@ import axios from 'axios';
 // Configured with the FastAPI backend URL (http://localhost:8000)
 // ---------------------------------------------------------
 const api = axios.create({
-  baseURL: 'http://localhost:8000',
+  // baseURL: 'http://localhost:8000',
+  baseURL: 'https://abc123.ngrok-free.app',
   headers: {
     'Content-Type': 'application/json',
   },
