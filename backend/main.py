@@ -43,7 +43,10 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://sanbaj-traid.github.io",
+    ],
     allow_credentials=True,
     allow_methods=["*"],  # Allows standard HTTP verbs
     allow_headers=["*"],  # Allows custom and standard headers
