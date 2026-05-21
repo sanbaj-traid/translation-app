@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
-from deep_translator import GoogleTranslator, single_detection
+from deep_translator import GoogleTranslator, single_detections
 
 # Import database module variables and dependencies
 from database import engine, Base, get_db, Translation
